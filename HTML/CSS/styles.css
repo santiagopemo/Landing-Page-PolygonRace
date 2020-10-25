@@ -206,13 +206,21 @@ body {
 }
 
 .Description {
-    background: #fafafa;
+    background: linear-gradient(180deg, var(--black1) 0%, var(--black) 100%);
     position: relative;
 }
 
 .subtitles_d {
     font-size: 42px;
     text-align: center;
+    color: #fafafa;
+}
+
+.copy_section1 {
+    color: var(--gray);
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 60px;
 }
 
 .socialmedia{
