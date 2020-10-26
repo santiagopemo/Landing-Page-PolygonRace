@@ -64,12 +64,12 @@ body {
 }
 
 .link--active {
-    color: var(--gold1);
+    color: #ff0080;
     font-weight: 700;
 }
 
 .point {
-    color: var(--gold1);
+    color:#ff0080;
 }
 
 .hero_main {
@@ -91,7 +91,7 @@ body {
 }
 
 .title_active{
-    color: var(--gold);
+    color: #ff0080;
     font-weight: 700;
 
 }
@@ -217,7 +217,7 @@ body {
 }
 
 .copy_section1 {
-    color: var(--gray);
+    color: var(--gray1);
     font-size: 22px;
     line-height: 32px;
     margin-bottom: 60px;
@@ -233,17 +233,10 @@ body {
     margin-right: 30px;
     display: inline-block;
     color: #fff;
-
 }
 
-footer {
-    background-color: #545454; 
-    height: 60px; 
-    width: 100%;
-    position: fixed;
-    display:flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
-    bottom: 0;
+.socialmedia__icon1 {
+    font-size: 40px;
+    padding: 0 48%;
+    color: white;
 }
