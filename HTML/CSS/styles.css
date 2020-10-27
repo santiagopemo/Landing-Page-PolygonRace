@@ -116,6 +116,7 @@ body {
     font-weight: 700;
     box-shadow: var(--shadow) var(--color-shadow);
     border-radius: 6px;
+    
 }
 
 .peers {
