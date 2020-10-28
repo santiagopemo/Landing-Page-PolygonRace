@@ -138,6 +138,13 @@ body {
     line-height: 32px;
     margin-bottom: 60px;
 }
+.subtitle_section {
+    /* color: var(--black1); */
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
 
 .copy_section--modifier {
     text-align: center;
@@ -240,4 +247,8 @@ body {
     font-size: 40px;
     padding: 0 48%;
     color: white;
+}
+
+p {
+    text-align: justify;
 }
