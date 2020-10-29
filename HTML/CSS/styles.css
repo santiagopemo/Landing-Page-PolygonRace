@@ -127,6 +127,11 @@ body {
     font-size: 42px;
 }
 
+.subtitles_features {
+    font-size: 42px;
+    color: whitesmoke;
+}
+
 .subtitles--modifier {
     text-align: center;
     margin-bottom: 16px;
@@ -144,6 +149,7 @@ body {
     line-height: 32px;
     margin-bottom: 10px;
     margin-top: 20px;
+    color: white;
 }
 
 .copy_section--modifier {
@@ -251,4 +257,29 @@ body {
 
 p {
     text-align: justify;
+}
+
+.container_features {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px 0;
+    height: auto;
+}
+
+.container_description {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 80px 20px 0 0;
+    height: auto;
+}
+
+.copy_section_team {
+    color: var(--black1);
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 30px;
 }
