@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Polygon Race",
+"productVersion": "0.1",
+"dataUrl": "polygon-race-wbgl.data.unityweb",
+"wasmCodeUrl": "polygon-race-wbgl.wasm.code.unityweb",
+"wasmFrameworkUrl": "polygon-race-wbgl.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.26f1"
+}

@@ -6,6 +6,15 @@
     <link rel="stylesheet" type=text/css href="static/css/styles.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>Polygon Race</title>
+
+    <link rel="shortcut icon" href="builds/webgl/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="builds/webgl/TemplateData/style.css">
+    <script src="builds/webgl/TemplateData/UnityProgress.js"></script>
+    <script src="builds/webgl/Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "builds/webgl/Build/polygon-race-wbgl.json", {onProgress: UnityProgress});
+    </script>
+
 </head>
 <body>
     <header class="hero">
@@ -38,6 +47,14 @@
     <main>
         <section class="container_description">
             <p class="copy_section"><strong>Polygon Race</strong> is a simple-to-play 3D racing video game developed in the Unity video game engine integrating other tools such as Blender and Adobe Illustrator , with a programming logic developed in the C# language. This game has a retro-futuristic aesthetic, in which the player is immersed in a busy highway that leads to the utopian city of Polygon City, whose objective is to move at high speed avoiding traffic, generating the highest possible score and thus becoming the best Polygon Racer.</p>
+            <h2 class="subtitles" id="Nosotros">Play It Now<span class="point">.</span></h2>
+            <div class="webgl-content">
+                <div id="unityContainer" style="width: 960px; height: 600px"></div>
+                <div class="footer">
+                  <div class="webgl-logo"></div>
+                  <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+                  <div class="title">Polygon Race</div>
+                </div>
         </section>
         <section class="Description">
             <div class="container_features">
