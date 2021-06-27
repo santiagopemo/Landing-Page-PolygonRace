@@ -304,7 +304,7 @@ p {
 }
 #start {
     display: grid;
-    width: 80vw;
+    width: 90vw;
     grid-template-areas:
       "zip logo";
 }
@@ -328,6 +328,7 @@ p {
     }
     .mockup {
         width: 100%;
+        height: auto;
         margin: 40px 0px;
     }
   }
@@ -347,6 +348,7 @@ p {
     }
     .mockup {
         width: 100%;
+        height: auto;
         margin: 40px 0px;
     }
   }
