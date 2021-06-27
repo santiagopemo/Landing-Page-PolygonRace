@@ -312,7 +312,25 @@ p {
     grid-area: zip;
     margin-bottom: 20px;
 }
-@media (max-width: 600px) {
+@media (max-device-width: 600px) {
+    .links {
+      display: none;
+    }
+    .webgl-content {
+        display: none;
+    }
+    #start {
+        display: grid;
+        grid-template-areas:
+          "logo"
+          "zip" ;
+    }
+    .mockup {
+        width: 100%;
+        margin: 40px 0px;
+    }
+  }
+  @media (max-width: 600px) {
     .links {
       display: none;
     }
